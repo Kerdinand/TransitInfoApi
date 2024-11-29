@@ -2,9 +2,9 @@
 
 public struct Shape
 {
-    public string ShapeId { get; set; } // Required
-    public double ShapePtLat { get; set; } // Required
-    public double ShapePtLon { get; set; } // Required
-    public int ShapePtSequence { get; set; } // Required
+    public string shape_id { get; set; } // Required
+    public double shape_pt_lat { get; set; } // Required
+    public double shape_pt_lon { get; set; } // Required
+    public int shape_pt_sequence { get; set; } // Required
     public double? ShapeDistTraveled { get; set; } // Optional
 }

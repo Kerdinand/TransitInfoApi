@@ -2,12 +2,12 @@
 
 public struct Agency
 {
-    public string AgencyId { get; set; } // Optional
-    public string AgencyName { get; set; } // Required
-    public string AgencyUrl { get; set; } // Required
-    public string AgencyTimezone { get; set; } // Required
-    public string AgencyLang { get; set; } // Optional
-    public string AgencyPhone { get; set; } // Optional
-    public string AgencyFareUrl { get; set; } // Optional
-    public string AgencyEmail { get; set; } // Optional
+    public string agency_id { get; set; } // Optional
+    public string agency_name { get; set; } // Required
+    public string agency_url { get; set; } // Required
+    public string agency_timezone { get; set; } // Required
+    public string agency_lang { get; set; } // Optional
+    public string agency_phone { get; set; } // Optional
+    public string agency_fare_url { get; set; } // Optional
+    public string agency_email { get; set; } // Optional
 }
